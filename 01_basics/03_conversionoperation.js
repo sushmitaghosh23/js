@@ -1,11 +1,11 @@
-let marks = "90abcd"
+let marks = "90"
 console.log(typeof marks);
 
-// so when we are taking input as 90 we are getting the output as 'number' but when we are taking input "90" we are getting output as string so to overcome this  we need conversionoperation;
+// // so when we are taking input as 90 we are getting the output as 'number' but when we are taking input "90" we are getting output as string so to overcome this  we need conversionoperation;
 
 let valueofmarks = Number(marks)
 console.log(typeof valueofmarks);
-// if we take the input as "90abc" we will get output as NaN(NOT A NUMBER) 
+// // if we take the input as "90abc" we will get output as NaN(NOT A NUMBER) 
 console.log(valueofmarks)
 
 // "90" => 33
@@ -16,6 +16,17 @@ console.log(valueofmarks)
 //1=>true & 0=>false
 //""(emptystring) => false
 //"Sushmita" => true
+
+//***************operation***************************** */
+let x = 3;
+const y = x++;
+
+console.log(`x:${x}, y:${y}`);
+
+let a = 3;
+const b = ++a;
+
+console.log(`a:${a}, b:${b}`);
 
 
 
